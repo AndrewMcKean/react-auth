@@ -12,15 +12,10 @@ code {
     monospace;
 }
 
-#navigation{
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
-  
-  #navigation a{
-    margin-right: 10%;
-  }
-  
-  #navigation a:last-child{
-    margin-right: 0;
-  }
+
+#accountForms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}

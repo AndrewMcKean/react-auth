@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Form, Button, Row, Col } from 'react-bootstrap';
 import axios from 'axios';
 import Cookies from "universal-cookie";
 const cookies = new Cookies();
@@ -37,31 +37,35 @@ export default function Login() {
 
   return(
     <>
-      <h2>Login</h2>
       <Form onSubmit={(e) => handleSubmit(e)}>
-        {/* email */}
-        <Form.Group controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control 
-            type="email"
-            name="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="enter email" 
-          />
-        </Form.Group>
+        <Row>
+          {/* email */}
+          <Col>
+            <Form.Label>Email address</Form.Label>
+            <Form.Control 
+              type="email"
+              name="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="enter email" 
+            />
+          </Col>
+          
+        
 
-        {/* Password */}
-        <Form.Group controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control 
-            type="password"
-            name="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)} 
-            placeholder="Password" 
-          />
-        </Form.Group>
+          {/* Password */}
+          <Col>
+            <Form.Label>Password</Form.Label>
+            <Form.Control 
+              type="password"
+              name="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)} 
+              placeholder="Password" 
+            />
+          </Col>
+        </Row>
+        
 
         {/* display success message */}
           {login ? (
@@ -76,7 +80,7 @@ export default function Login() {
           type="submit"
           onClick={(e) => handleSubmit(e)}
         >
-          Submit
+          Login
         </Button>
       </Form>
     </>

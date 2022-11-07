@@ -1,9 +1,10 @@
 import { Container, Col, Row } from "react-bootstrap";
 import "./App.css";
 import {Switch, Route} from "react-router-dom";
-import Account from "./Account";
-import FreeComponent from "./FreeComponent";
-import AuthComponent from "./AuthComponent";
+import LoginPage from "./components/LoginPage";
+import RegisterPage from "./components/RegisterPage";
+import FreeComponent from "./components/FreeComponent";
+import AuthComponent from "./components/AuthComponent";
 import ProtectedRoutes from "./ProtectedRoutes";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <Container>
       <Row>
         <Col className="text-center">
-          <h1>React Authentication Tutorial</h1>
+          <h1>Dev Challenge</h1>
 
           <section id="navigation">
             <a href="/">Home</a>
@@ -23,7 +24,8 @@ function App() {
 
       {/*Create routes here*/}
       <Switch>
-        <Route exact path="/" component={Account} />
+        <Route exact path="/" component={LoginPage} />
+        <Route exact path="/register" component={RegisterPage} />
         <Route exact path="/free" component={FreeComponent} />
         <ProtectedRoutes path="/auth" component={AuthComponent} />
       </Switch>
