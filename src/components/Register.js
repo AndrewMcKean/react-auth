@@ -40,7 +40,7 @@ export default function Register() {
   }
 
   return(
-    <Container className="registerContainer">
+    <Container className="registerContainer text-center">
       <Form onSubmit={(e) => handleSubmit(e)}>
         {/* email */}
         <Row>
@@ -101,16 +101,16 @@ export default function Register() {
               <></>
             )}
           </Row>
-            {/* Submit button */}
-            <Button 
-              variant="custom"
-              className=""
-              size="lg"
-              type="submit"
-              onClick={(e) => handleSubmit(e)}
-            >
-              Submit
-            </Button>
+          {/* Submit button */}
+          <Button 
+            variant="custom"
+            className=""
+            size="lg"
+            type="submit"
+            onClick={(e) => handleSubmit(e)}
+          >
+            Sign up!
+          </Button>
       </Form>
     </Container>
   )
