@@ -4,9 +4,13 @@ import Register from "./Register";
 
 export default function RegisterPage() {
   return (
-    <Row>
-      {/* Register */}
-        <Register />
-    </Row>
+    <>
+      <h1 className="pageTitleSignUp">Dev challenge</h1>
+      <h2>Register</h2>
+      <Row>
+        {/* Register */}
+          <Register />
+      </Row>
+    </>
   );
 }

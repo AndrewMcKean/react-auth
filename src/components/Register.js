@@ -1,13 +1,16 @@
 import React, {useState} from 'react';
-import { Form, Button, Col, Row } from 'react-bootstrap';
+import { Container, Form, Button, Col, Row, Alert } from 'react-bootstrap';
 import axios from "axios";
+import './index.css';
+
 
 export default function Register() {
   const [email, setEmail] = useState("");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [message, setMessage] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const [register, setRegister] = useState("");
+  const [error, setError] = useState(false);
   
   const handleSubmit = (e) => {
     //Prevent form from refreshing the whole page
@@ -26,84 +29,89 @@ export default function Register() {
 
     axios(configuration)
       .then((result) => {
-        setRegister(true);
+        alert("Success! Please login.")
+        window.location.href = "/login";
       })
-      .catch((error) => {
+      .catch((message, error) => {
         error = new Error();
+        setError(true);
+        setMessage(message.response.data.message + ": email already signed up.");
       });
   }
 
   return(
-    <>
-      <h2>Register</h2>
+    <Container className="registerContainer">
       <Form onSubmit={(e) => handleSubmit(e)}>
         {/* email */}
-          <Row>
-            <Col>
-              <Form.Label>Username</Form.Label>
-              <Form.Control 
-                type="username"
-                name="username"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                placeholder="Username" 
-              />
-            </Col>
-
-            <Col>
-              {/* email */}
-              <Form.Label>Email address</Form.Label>
-              <Form.Control 
-                type="email"
-                name="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)} 
-                placeholder="Email" 
-              />
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-            {/* Password */}
-            <Form.Label>Password</Form.Label>
-            <Form.Control
-              type="password"
-              name="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              placeholder="Password"
+        <Row>
+          <Col>
+            <Form.Control 
+              className="bg-transparent"
+              type="username"
+              name="username"
+              size="lg"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              placeholder="Username" 
             />
-            </Col>
-            <Col>
-              {/* Confirm password */}
-              <Form.Label>Confirm Password</Form.Label>
-              <Form.Control
-                type="password"
-                name="confirmPassword"
-                value={confirmPassword}
-                onChange={(e) => setConfirmPassword(e.target.value)}
-                placeholder="Confirm password"
-              />
-            </Col>
-          </Row>
-          <Row>
-            {/*Display success message*/}
-              {register ? (
-                <p className="text-success">You are registered successfully</p>
-              ) : (
-                <p className="text-danger">You are not registered</p>
-              )}
+          </Col>
 
+          <Col>
+            {/* email */}
+            <Form.Control
+              className="bg-transparent"
+              size="lg"
+              type="email"
+              name="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)} 
+              placeholder="Email" 
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+          {/* Password */}
+          <Form.Control
+            className="bg-transparent"
+            size="lg"
+            type="password"
+            name="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            placeholder="Password"
+          />
+          </Col>
+          <Col>
+            {/* Confirm password */}
+            <Form.Control
+              className="bg-transparent"
+              size="lg"
+              type="password"
+              name="confirmPassword"
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
+              placeholder="Confirm password"
+            />
+          </Col>
+            {/* display message */}
+            {error ? (
+              <p className="text-danger">{message}</p>
+            ) : (
+              <></>
+            )}
+          </Row>
             {/* Submit button */}
             <Button 
-              variant="primary" 
+              variant="custom"
+              className=""
+              size="lg"
               type="submit"
               onClick={(e) => handleSubmit(e)}
             >
               Submit
             </Button>
-          </Row>
       </Form>
-    </>
+    </Container>
   )
 }

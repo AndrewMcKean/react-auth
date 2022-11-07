@@ -7,7 +7,6 @@ import RegisterPage from "./components/RegisterPage";
 import FreeComponent from "./components/FreeComponent";
 import Dashboard from "./components/Dashboard";
 import ProtectedRoutes from "./ProtectedRoutes";
-import backgroundImage from './assets/Background.png';
 
 
 function App() {

@@ -7,6 +7,13 @@
     margin-top: 1em;
 }
 
+.pageTitleSignUp {
+    color: white;
+    text-align: center;
+    margin-bottom: 6em;
+    margin-top: 1em;
+}
+
 .form-control {
     color: white !important;
     border-left: none !important;
@@ -25,18 +32,16 @@
 
 }
 
-.loginContainer {
+.loginContainer, .registerContainer {
     margin-bottom: 2em;
 }
 
 .btn-custom {
     background-color: yellow !important;
     width: 15% !important;
-    border-bottom: none !important;
 }
 
 .signup {
     font-size: x-large;
     color: white;
-    
 }

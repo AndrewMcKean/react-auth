@@ -26,7 +26,7 @@ export default function Login() {
     axios(configuration)
       .then((result) => {
         setLogin(true);
-        //
+        //Cache cookie and redirect
         cookies.set("TOKEN", result.data.token, {
           path: "/",
         });
@@ -50,7 +50,7 @@ export default function Login() {
               size="lg"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="enter email" 
+              placeholder="Enter Email" 
             />
           </Col>
           
