@@ -4,7 +4,7 @@ import './index.css';
 import Login from "./Login";
 import SignUp from "./SignUp";
 
-export default function LoginPage() {
+export default function LoginContainer() {
   return (
     <>
     <h1 className="pageTitle">Dev challenge</h1>
