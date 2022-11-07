@@ -7,6 +7,7 @@ import SignUp from "./SignUp";
 export default function LoginPage() {
   return (
     <>
+    <h1 className="text-center">Dev challenge</h1>
       <Row className="text-center">
         {/* Login */}
         <Login />
