@@ -12,7 +12,7 @@ export default function AuthComponent() {
     // set configurations for the API call here
     const configuration = {
       method: "get",
-      url: "https://nodejs-mongodb-auth-app.herokuapp.com/auth-endpoint",
+      url: "https://challenge-auth-app.herokuapp.com/auth-endpoint",
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -21,6 +21,7 @@ export default function AuthComponent() {
     axios(configuration)
       .then((result) => {
         setMessage(result.data.message);
+        console.log(result);
       })
       .catch((error) => {
         error = new Error();
@@ -37,6 +38,7 @@ export default function AuthComponent() {
     <div className="text-center">
       <h1 className="text-center">Auth Component</h1>
       <h3 className="text-center text-danger">{message}</h3>
+      <h4 className="text-center">{token}</h4>
       <Button type="submit" variant="danger" onClick={() => logout()}>Logout</Button>
     </div>
   );

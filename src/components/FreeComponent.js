@@ -7,7 +7,7 @@ export default function FreeComponent() {
   useEffect(() => {
     const configuration = {
       method: "get",
-      url: "https://nodejs-mongodb-auth-app.herokuapp.com/free-endpoint",
+      url: "https://challenge-auth-app.herokuapp.com/free-endpoint",
     };
 
     axios(configuration)
