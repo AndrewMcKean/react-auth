@@ -5,14 +5,14 @@ import Cookies from "universal-cookie";
 const cookies = new Cookies();
 const token = cookies.get("TOKEN");
 
-export default function AuthComponent() {
+export default function Dashboard() {
   const [message, setMessage] = useState("");
   
   useEffect(() => {
     // set configurations for the API call here
     const configuration = {
       method: "get",
-      url: "https://challenge-auth-app.herokuapp.com/auth-endpoint",
+      url: "https://challenge-auth-app.herokuapp.com/dashboard",
       headers: {
         Authorization: `Bearer ${token}`,
       },
