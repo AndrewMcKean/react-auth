@@ -1,4 +1,4 @@
-import { Container, Col, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "./App.css";
 import {Switch, Route} from "react-router-dom";
 import Splash from "./components/Splash";
