@@ -1,8 +1,11 @@
+import { Container } from "react-bootstrap";
+import './index.css';
+
 export default function SignUp() {
 
     return (
-        <>
-            <p>New to the challenge? <a href="/register">Sign up!</a></p>
-        </>
+        <Container>
+            <p className="signup">New to the challenge? <a href="/register">Sign up!</a></p>
+        </Container>
     )
 }

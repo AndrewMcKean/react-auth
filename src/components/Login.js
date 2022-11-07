@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
-import { Form, Button, Row, Col } from 'react-bootstrap';
+import { Container, Form, Button, Row, Col } from 'react-bootstrap';
+import './index.css';
 import axios from 'axios';
 import Cookies from "universal-cookie";
 const cookies = new Cookies();
+
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -36,15 +38,16 @@ export default function Login() {
   }
 
   return(
-    <>
+    <Container className="loginContainer">
       <Form onSubmit={(e) => handleSubmit(e)}>
         <Row>
           {/* email */}
           <Col>
-            <Form.Label>Email address</Form.Label>
-            <Form.Control 
+            <Form.Control
+              className="bg-transparent"
               type="email"
               name="email"
+              size="lg"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="enter email" 
@@ -55,34 +58,28 @@ export default function Login() {
 
           {/* Password */}
           <Col>
-            <Form.Label>Password</Form.Label>
-            <Form.Control 
-              type="password"
+            <Form.Control
+              className="bg-transparent"
               name="password"
+              type="password"
+              size="lg"
               value={password}
               onChange={(e) => setPassword(e.target.value)} 
-              placeholder="Password" 
+              placeholder="Password"
             />
           </Col>
         </Row>
-        
-
-        {/* display success message */}
-          {login ? (
-          <p className="text-success">You Are Logged in Successfully</p>
-        ) : (
-          <p className="text-danger">You Are Not Logged in</p>
-        )}
 
         {/* Submit button */}
         <Button 
-          variant="primary" 
+          variant="custom"
+          size="lg"
           type="submit"
           onClick={(e) => handleSubmit(e)}
         >
           Login
         </Button>
       </Form>
-    </>
+    </Container>
   )
 }
