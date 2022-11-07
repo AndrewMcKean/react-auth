@@ -1,6 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import Login from "./Login";
+import { Row } from "react-bootstrap";
 import Register from "./Register";
 
 export default function RegisterPage() {

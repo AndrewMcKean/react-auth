@@ -7,7 +7,6 @@ const cookies = new Cookies();
 const token = cookies.get("TOKEN");
 
 export default function Dashboard() {
-  const [message, setMessage] = useState("");
   const [username, setUsername] = useState("");
 
   useEffect(() => {
@@ -22,7 +21,6 @@ export default function Dashboard() {
 
     axios(configuration)
       .then((result) => {
-        setMessage(result.data.message);
         const user = jwt(token);
         setUsername(user.userName);
       })
