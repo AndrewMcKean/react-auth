@@ -1,45 +1,53 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { Button } from "react-bootstrap";
-import jwt from 'jwt-decode';
-import Cookies from "universal-cookie";
-const cookies = new Cookies();
-const token = cookies.get("TOKEN");
+import React from "react";
+import {Col, Row, Container} from 'react-bootstrap';
+import DashGreeting from "./DashGreeting";
+import Logout from "./Logout";
+import ProfilePicture from './ProfilePicture';
+import ContentBox from './ContentBox';
+import WeatherBoxContainer from './WeatherBoxContainer';
+
 
 export default function Dashboard() {
-  const [username, setUsername] = useState("");
 
-  useEffect(() => {
-    // set configurations for the API call here
-    const configuration = {
-      method: "get",
-      url: "https://challenge-auth-app.herokuapp.com/dashboard",
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    };
-
-    axios(configuration)
-      .then((result) => {
-        const user = jwt(token);
-        setUsername(user.userName);
-      })
-      .catch((error) => {
-        error = new Error();
-      })
-  }, [])
-
-  const logout = () => {
-    // destroy the cookie
-    cookies.remove("TOKEN", { path: "/"});
-    window.location.href = "/";
-  }
 
   return (
-    <div className="text-center">
-      <h1 className="text-center">Dashboard</h1>
-      <h2 className="text-center">{"Hello " + username}</h2>
-      <Button type="submit" variant="danger" onClick={() => logout()}>Logout</Button>
-    </div>
+    <Container className="dashContainer">
+      {/* */}
+      <Row className="titleRow">
+        <Col className="d-flex align-items-center justify-content-center" sm={2}>
+          <ProfilePicture />
+        </Col>
+        <Col className="d-flex align-items-center justify-content-center" sm={8}>
+          <DashGreeting />
+        </Col>
+        <Col className="d-flex align-items-center justify-content-end logoutContainer" sm={2}>
+          <Logout />
+        </Col>
+      </Row>
+      {/*First content row*/}
+      <Row className="contentRow">
+        <Col>
+          <WeatherBoxContainer />
+        </Col>
+        <Col>
+          <ContentBox cardTitle="News" cardContent="News things" />
+        </Col>
+        <Col>
+          <ContentBox cardTitle="Sport" cardContent="Sport things" />
+        </Col>
+      </Row>
+      {/*Second content row */}
+      <Row className="contentRow">
+        <Col>
+          <ContentBox cardTitle="Pics" cardContent="Pics things" />
+        </Col>
+        <Col>
+          <ContentBox cardTitle="Tasks" cardContent="ToDos things" />
+        </Col>
+        <Col>
+          <ContentBox cardTitle="Clothes" cardContent="Clothes things" />
+        </Col>
+      </Row>
+    </Container>
   );
 }

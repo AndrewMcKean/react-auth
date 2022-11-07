@@ -9,7 +9,8 @@ const cookies = new Cookies();
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [login, setLogin] = useState(false);
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,15 +26,16 @@ export default function Login() {
 
     axios(configuration)
       .then((result) => {
-        setLogin(true);
         //Cache cookie and redirect
         cookies.set("TOKEN", result.data.token, {
           path: "/",
         });
         window.location.href = "/dashboard";
       })
-      .catch((error) => {
+      .catch((message, error) => {
         error = new Error();
+        setError(true);
+        setMessage(message.response.data.message + "");
       });
   }
 
@@ -69,6 +71,12 @@ export default function Login() {
             />
           </Col>
         </Row>
+        {/* display message */}
+          {error ? (
+            <p className="text-danger">{message}</p>
+              ) : (
+              <></>
+          )}
 
         {/* Submit button */}
         <Button 

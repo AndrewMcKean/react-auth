@@ -42,8 +42,28 @@
     margin-bottom: 2em;
 }
 
+.dashContainer {
+    margin-top: 1em;
+    height: 90vh;
+}
+
+.dashGreeting {
+    color: white;
+    font-size: 4em;
+}
+
+.titleRow {
+    height: 20%;
+    margin: 4em;
+}
+
+.contentRow {
+    height: 40%;
+}
+
+
 .btn-custom {
-    background-color: yellow !important;
+    background-color: #fdfd96 !important;
     width: 15% !important;
 }
 
@@ -51,3 +71,4 @@
     font-size: x-large;
     color: white;
 }
+
