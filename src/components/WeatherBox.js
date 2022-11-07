@@ -1,28 +1,27 @@
 import React, {useEffect, useState} from 'react';
 import { Card, Row, Col } from 'react-bootstrap';
 import './index.css';
-import Clouds from "../Clouds_icon.png";
-import Rain from "../Rain_icon.png";
-import Sun from "../Sun_icon.png";
+import Clouds from "../assets/Clouds_icon.png";
+import Rain from "../assets/Rain_icon.png";
+import Sun from "../assets/Sun_icon.png";
 
 export default function WeatherBox(props) {
 
   const [icon, setIcon] = useState("");
-  const imgCheck = props.icon;
   
   useEffect(() => {
-    if(props.icon === 'Clouds') {
-      setIcon(Clouds)
+    if(props.icon === 'Sun') {
+      setIcon(Sun)
     } else if (props.icon === 'Rain') {
       setIcon(Rain)
     } else {
-      setIcon(Sun)
+      setIcon(Clouds)
     }
   }, [])
 
 
   return (
-    <Card className="contentBox" style={{width: '16rem', height: '15rem', background: 'rgba(218, 223, 225, 0.5)'}}>
+    <Card className="contentBox" style={{width: '20rem', height: '15rem', background: 'rgba(218, 223, 225, 0.5)'}}>
       <Card.Header style={{background: '#fdfd96', textAlign: 'center', fontSize: '120%', fontWeight: 'bold'}}>
         {props.cardTitle}
       </Card.Header>

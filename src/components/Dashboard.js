@@ -5,6 +5,7 @@ import Logout from "./Logout";
 import ProfilePicture from './ProfilePicture';
 import ContentBox from './ContentBox';
 import WeatherBoxContainer from './WeatherBoxContainer';
+import NewsBoxContainer from './NewsBoxContainer';
 
 
 export default function Dashboard() {
@@ -26,25 +27,25 @@ export default function Dashboard() {
       </Row>
       {/*First content row*/}
       <Row className="contentRow">
-        <Col>
+        <Col className="d-flex align-items-center justify-content-start">
           <WeatherBoxContainer />
         </Col>
-        <Col>
-          <ContentBox cardTitle="News" cardContent="News things" />
+        <Col className="d-flex align-items-center justify-content-center"> 
+          <NewsBoxContainer cardTitle="News" />
         </Col>
-        <Col>
+        <Col className="d-flex align-items-center justify-content-end">
           <ContentBox cardTitle="Sport" cardContent="Sport things" />
         </Col>
       </Row>
       {/*Second content row */}
       <Row className="contentRow">
-        <Col>
+        <Col className="d-flex align-items-center justify-content-start">
           <ContentBox cardTitle="Pics" cardContent="Pics things" />
         </Col>
-        <Col>
+        <Col className="d-flex align-items-center justify-content-center">
           <ContentBox cardTitle="Tasks" cardContent="ToDos things" />
         </Col>
-        <Col>
+        <Col className="d-flex align-items-center justify-content-end">
           <ContentBox cardTitle="Clothes" cardContent="Clothes things" />
         </Col>
       </Row>
