@@ -28,7 +28,7 @@ export default function Login() {
         cookies.set("TOKEN", result.data.token, {
           path: "/",
         });
-        window.location.href = "/auth";
+        window.location.href = "/dashboard";
       })
       .catch((error) => {
         error = new Error();
