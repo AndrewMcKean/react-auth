@@ -10,7 +10,7 @@ export default function NewsBox(props) {
         {props.cardTitle}
       </Card.Header>
       <Card.Img src={props.img} style={{maxWidth: '40%', alignSelf: 'center', marginTop: '1em', marginBottom: '2em'}}/>
-      <Card.Text className="text-center" style={{}}>
+      <Card.Text className="text-center" style={{paddingLeft: '5px', paddingRight: '5px'}}>
         {props.title}
       </Card.Text>
     </Card>
