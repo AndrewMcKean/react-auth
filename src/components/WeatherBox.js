@@ -8,6 +8,7 @@ import Sun from "../assets/Sun_icon.png";
 export default function WeatherBox(props) {
 
   const [icon, setIcon] = useState("");
+
   
   useEffect(() => {
     if(props.icon === 'Sun') {
@@ -17,6 +18,8 @@ export default function WeatherBox(props) {
     } else {
       setIcon(Clouds)
     }
+    // disbaling on linter as props.icon is accessible on page load
+    // eslint-disable-next-line
   }, [])
 
 
