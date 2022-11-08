@@ -19,6 +19,9 @@ export default function Register() {
     e.preventDefault();
     if(profileImg) {
 
+      const imgMap = {"profileImg": profileImg};
+      const taskMap = {"taskDesc" : "taskStatus"};
+
       // set configurations
       const configuration = {
         method: "post",
@@ -27,7 +30,8 @@ export default function Register() {
           username,
           email,
           password,
-          profileImg,
+          imgMap,
+          taskMap,
         },
       };
 
