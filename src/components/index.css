@@ -63,12 +63,13 @@
 
 
 .btn-custom {
-    background-color: #fdfd96 !important;
-    width: 15% !important;
+    /*background-color: #fdfd96 !important;*/
+    width: 25% !important;
 }
 
 .signup {
     font-size: x-large;
     color: white;
 }
+
 
