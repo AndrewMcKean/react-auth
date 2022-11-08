@@ -27,11 +27,13 @@ export default function Login() {
     axios(configuration)
       .then((result) => {
         //Cache cookie and redirect
+        console.log(result);
+        localStorage.setItem("photoMap", JSON.stringify(result.data.photoMap));
+        localStorage.setItem("taskMap", JSON.stringify(result.data.taskMap));
         cookies.set("TOKEN", result.data.token, {
           path: "/",
         });
-        localStorage.setItem("photoMap", JSON.Stringify(result.data.photoMap));
-        localStorage.setItem("taskMap", JSON.Stringify(result.data.taskMap));
+
         window.location.href = "/dashboard";
       })
       .catch((message, error) => {
