@@ -19,7 +19,7 @@ export default function Register() {
     e.preventDefault();
     if(profileImg) {
 
-      const imgMap = {"profileImg": profileImg};
+      const photoMap = {"profileImg": profileImg};
       const taskMap = {"taskDesc" : "taskStatus"};
 
       // set configurations
