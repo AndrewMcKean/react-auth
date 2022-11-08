@@ -17,29 +17,33 @@ export default function Register() {
   const handleSubmit = (e) => {
     //Prevent form from refreshing the whole page
     e.preventDefault();
-    
-    // set configurations
-    const configuration = {
-      method: "post",
-      url: "https://challenge-auth-app.herokuapp.com/register",
-      data: {
-        username,
-        email,
-        password,
-        profileImg,
-      },
-    };
+    if(profileImg) {
 
-    axios(configuration)
-      .then((result) => {
-        alert("Success! Please login.")
-        window.location.href = "/login";
-      })
-      .catch((message, error) => {
-        error = new Error();
-        setError(true);
-        setMessage(message.response.data.message + ": email already signed up.");
-      });
+      // set configurations
+      const configuration = {
+        method: "post",
+        url: "https://challenge-auth-app.herokuapp.com/register",
+        data: {
+          username,
+          email,
+          password,
+          profileImg,
+        },
+      };
+
+      axios(configuration)
+        .then((result) => {
+          alert("Success! Please login.")
+          window.location.href = "/login";
+        })
+        .catch((message, error) => {
+          error = new Error();
+          setError(true);
+          setMessage(message.response.data.message + ": email already signed up.");
+        });
+    } else {
+      setMessage("Please wait for a moment and then try again.")
+    }
   }
 
   //Set up to programatically click "choose file"
@@ -67,13 +71,9 @@ export default function Register() {
   };
 
   const handleImage = async (e) => {
-    const file = e.target.files[0];
-    const base64 = await resizeFile(file);
-    setProfileImg(base64);
+    const base64 = await resizeFile(e.target.files[0]);
+    setProfileImg(base64)
   }
-
-  //Resize image to 280x280
-
 
   return(
     <Container className="registerContainer text-center">
@@ -160,7 +160,6 @@ export default function Register() {
               <Card className="d-flex align-items-center justify-content-center" style={{width: '25%', height: '12rem', background: 'rgba(218, 223, 225, 0.5)', borderStyle: 'solid', borderColor: '#fdfd96', borderWidth: '1px'}}>
                 <Card.Text
                   style={{background: 'transparent', color: '#fdfd96'}}
-                  onClick={(e) => handleClick(e.target.value)}
                 >
                   Image ready for upload.
                 </Card.Text>
@@ -175,7 +174,7 @@ export default function Register() {
             size="lg"
             type="submit"
             style={{marginTop: '1em', backgroundColor: '#fdfd96'}}
-            onClick={(e) => handleSubmit(e)}
+            onClick={handleSubmit}
           >
             Sign up!
           </Button>

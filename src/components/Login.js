@@ -81,6 +81,7 @@ export default function Login() {
         {/* Submit button */}
         <Button 
           variant="custom"
+          style={{background: '#fdfd96'}}
           size="lg"
           type="submit"
           onClick={(e) => handleSubmit(e)}
