@@ -1,9 +1,8 @@
 import { Image } from 'react-bootstrap';
-import profilePic from '../assets/profilepic.jpg';
 
-export default function ProfilePicture() {
+export default function ProfilePicture(props) {
 
   return (
-    <Image src={profilePic} thumbnail />
+    <Image src={props.src} thumbnail />
   )
 }

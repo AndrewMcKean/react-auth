@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Container, Form, Button, Col, Row, Card } from 'react-bootstrap';
 import axios from "axios";
 import './index.css';
+import Resizer from 'react-image-file-resizer';
 
 
 export default function Register() {
@@ -25,6 +26,7 @@ export default function Register() {
         username,
         email,
         password,
+        profileImg,
       },
     };
 
@@ -46,9 +48,32 @@ export default function Register() {
     inputFileRef.current.click();
   }
 
-  const handleImage = (e) => {
-    setProfileImg(e);
+  //Resize to 280*280 and convert to base64
+  const resizeFile = (file) => {
+    return new Promise((resolve) => {
+      Resizer.imageFileResizer(
+        file,
+        280,
+        280,
+        "PNG",
+        100,
+        0,
+        (uri) => {
+          resolve(uri);
+        },
+        "base64"
+      );
+    });
+  };
+
+  const handleImage = async (e) => {
+    const file = e.target.files[0];
+    const base64 = await resizeFile(file);
+    setProfileImg(base64);
   }
+
+  //Resize image to 280x280
+
 
   return(
     <Container className="registerContainer text-center">
@@ -122,10 +147,9 @@ export default function Register() {
                 name="profileImage"
                 value={profileImg}
                 style={{visibility: 'hidden'}}
-                onChange={(e) => handleImage(e.target.value)}
+                onChange={(e) => handleImage(e)}
               />
               <Card.Text
-                variant="custom"
                 style={{background: 'transparent', color: '#fdfd96'}}
                 onClick={(e) => handleClick(e.target.value)}
               >
@@ -133,8 +157,13 @@ export default function Register() {
               </Card.Text> 
             </Card>
             ) : (
-              <Card style={{width: '25%', height: '12rem', background: 'rgba(218, 223, 225, 0.5)', borderStyle: 'solid', borderColor: '#fdfd96', borderWidth: '1px'}}>
-                <Card.Img src={profileImg} />
+              <Card className="d-flex align-items-center justify-content-center" style={{width: '25%', height: '12rem', background: 'rgba(218, 223, 225, 0.5)', borderStyle: 'solid', borderColor: '#fdfd96', borderWidth: '1px'}}>
+                <Card.Text
+                  style={{background: 'transparent', color: '#fdfd96'}}
+                  onClick={(e) => handleClick(e.target.value)}
+                >
+                  Image ready for upload.
+                </Card.Text>
               </Card>
             )
           }
