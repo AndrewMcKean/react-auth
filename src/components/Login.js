@@ -30,6 +30,8 @@ export default function Login() {
         cookies.set("TOKEN", result.data.token, {
           path: "/",
         });
+        localStorage.setItem("photoMap", Json.Stringify(result.data.photoMap));
+        localStorage.setItem("taskMap", Json.Stringify(result.data.taskMap));
         window.location.href = "/dashboard";
       })
       .catch((message, error) => {
