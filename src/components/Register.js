@@ -30,7 +30,7 @@ export default function Register() {
           username,
           email,
           password,
-          imgMap,
+          photoMap,
           taskMap,
         },
       };
