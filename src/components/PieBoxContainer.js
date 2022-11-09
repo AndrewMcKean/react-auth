@@ -32,7 +32,7 @@ export default function PieBoxContainer() {
         {title: 'sweater', value: 170, color: '#DCB12D'}, //orange
         {title: 'blazer', value: 146, color: '#3F9F9F' }, //Cyan
         {title: 'raincoat', value: 171, color: '#8AAF22' } //Green
-      ]} style={{width: '100%', paddingBottom: '10%', paddingLeft: '12%'}}/>);
+      ]} style={{width: '100%', paddingTop: '15%', paddingLeft: '12%'}}/>);
 }, []) 
 
 
