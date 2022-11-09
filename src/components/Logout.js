@@ -7,6 +7,10 @@ export default function Logout() {
   const logout = () => {
     // destroy the cookie
     cookies.remove("TOKEN", { path: "/"});
+    // clear localStorage
+    localStorage.clear();
+
+    // Redirect to login
     window.location.href = "/";
   }
 

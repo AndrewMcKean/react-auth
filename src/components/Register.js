@@ -17,36 +17,43 @@ export default function Register() {
   const handleSubmit = (e) => {
     //Prevent form from refreshing the whole page
     e.preventDefault();
-    if(profileImg) {
+    if(password === confirmPassword) {
+      if(profileImg) {
+        setError(false);
+        const photoMap = {};
+        const taskMap = {};
 
-      const photoMap = {"profileImg": profileImg};
-      const taskMap = {"taskDesc" : "taskStatus"};
+        // set configurations
+        const configuration = {
+          method: "post",
+          url: "https://challenge-auth-app.herokuapp.com/register",
+          data: {
+            username,
+            email,
+            password,
+            profileImg,
+            photoMap,
+            taskMap,
+          },
+        };
 
-      // set configurations
-      const configuration = {
-        method: "post",
-        url: "https://challenge-auth-app.herokuapp.com/register",
-        data: {
-          username,
-          email,
-          password,
-          photoMap,
-          taskMap,
-        },
-      };
-
-      axios(configuration)
-        .then((result) => {
-          alert("Success! Please login.")
-          window.location.href = "/login";
-        })
-        .catch((message, error) => {
-          error = new Error();
-          setError(true);
-          setMessage(message.response.data.message + ": email already signed up.");
-        });
+        axios(configuration)
+          .then((result) => {
+            alert("Success! Please login.")
+            window.location.href = "/login";
+          })
+          .catch((message, error) => {
+            error = new Error();
+            setError(true);
+            setMessage(message.response.data.message + ": email already signed up.");
+          });
+      } else {
+        setError(true);
+        setMessage("Please provide a profile image.")
+      }
     } else {
-      setMessage("Please wait for a moment and then try again.")
+      setError(true);
+      setMessage("Please ensure passwords match.")
     }
   }
 

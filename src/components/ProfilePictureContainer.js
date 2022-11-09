@@ -5,10 +5,8 @@ export default function ProfilePictureContainer(props) {
   const [profileImgSrc, setProfileImgSrc] = useState("");
 
   useEffect(() => {
-    const photoMap = localStorage.getItem("photoMap");
-    const profileImg = JSON.parse(photoMap);
-    setProfileImgSrc(profileImg.profileImg);
-    console.log(profileImg.profileImg);
+    let profileImg = localStorage.getItem("profileImg");
+    setProfileImgSrc(JSON.parse(profileImg));
   }, [])
 
 

@@ -27,9 +27,10 @@ export default function Login() {
     axios(configuration)
       .then((result) => {
         //Cache cookie and redirect
-        console.log(result);
+        localStorage.setItem("profileImg", JSON.stringify(result.data.profileImg));
         localStorage.setItem("photoMap", JSON.stringify(result.data.photoMap));
         localStorage.setItem("taskMap", JSON.stringify(result.data.taskMap));
+        localStorage.setItem("email", JSON.stringify(result.data.email));
         cookies.set("TOKEN", result.data.token, {
           path: "/",
         });

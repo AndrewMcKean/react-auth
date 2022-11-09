@@ -6,6 +6,8 @@ import ProfilePictureContainer from './ProfilePictureContainer';
 import ContentBox from './ContentBox';
 import WeatherBoxContainer from './WeatherBoxContainer';
 import NewsBoxContainer from './NewsBoxContainer';
+import PhotoBoxContainer from './PhotoBoxContainer';
+import PieBoxContainer from './PieBoxContainer';
 
 
 export default function Dashboard() {
@@ -40,13 +42,13 @@ export default function Dashboard() {
       {/*Second content row */}
       <Row className="contentRow">
         <Col className="d-flex align-items-center justify-content-start">
-          <ContentBox cardTitle="Pics" cardContent="Pics things" />
+          <PhotoBoxContainer />
         </Col>
         <Col className="d-flex align-items-center justify-content-center">
           <ContentBox cardTitle="Tasks" cardContent="ToDos things" />
         </Col>
         <Col className="d-flex align-items-center justify-content-end">
-          <ContentBox cardTitle="Clothes" cardContent="Clothes things" />
+          <PieBoxContainer cardTitle="Clothes" />
         </Col>
       </Row>
     </Container>

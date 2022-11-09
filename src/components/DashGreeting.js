@@ -1,3 +1,5 @@
+//Target for refactor now I'm more comfortable using localStorage
+
 import React, { useEffect, useState } from "react";
 import './index.css';
 import axios from "axios";
