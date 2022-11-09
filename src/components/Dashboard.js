@@ -8,6 +8,7 @@ import WeatherBoxContainer from './WeatherBoxContainer';
 import NewsBoxContainer from './NewsBoxContainer';
 import PhotoBoxContainer from './PhotoBoxContainer';
 import PieBoxContainer from './PieBoxContainer';
+import SportBoxContainer from './SportBoxContainer';
 
 
 export default function Dashboard() {
@@ -36,7 +37,7 @@ export default function Dashboard() {
           <NewsBoxContainer cardTitle="News" />
         </Col>
         <Col className="d-flex align-items-center justify-content-end">
-          <ContentBox cardTitle="Sport" cardContent="Sport things" />
+          <SportBoxContainer cardTitle="Sport" cardContent="Sport things" />
         </Col>
       </Row>
       {/*Second content row */}

@@ -9,6 +9,7 @@ import Dashboard from "./components/Dashboard";
 import NewsExtended from "./components/NewsExtended";
 import PhotoGallery from "./components/PhotoGallery";
 import ProtectedRoutes from "./ProtectedRoutes";
+import SportsContainer from "./components/SportsContainer";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <ProtectedRoutes path="/dashboard" component={Dashboard} />
         <ProtectedRoutes path="/news" component={NewsExtended} />
         <ProtectedRoutes path="/photos" component={PhotoGallery} />
+        <ProtectedRoutes path="/sports" component={SportsContainer} />
       </Switch>
     </Container>
   );

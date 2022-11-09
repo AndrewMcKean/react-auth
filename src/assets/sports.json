@@ -1,0 +1,1902 @@
+[
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Cagliari",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Roma",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Torino",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Milan",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Fiorentina",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Spal",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Genoa",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Chievo",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Bologna",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Inter",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Lazio",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Verona",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Sampdoria",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Cagliari",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Atalanta",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Udinese",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Sassuolo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Chievo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Sassuolo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Torino",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Spal",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Milan",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Genoa",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Fiorentina",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Inter",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Bologna",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Atalanta",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Lazio",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Udinese",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Cagliari",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Sampdoria",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Inter",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Roma",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Sassuolo",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Chievo",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Fiorentina",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Spal",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Torino",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Sampdoria",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Torino",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Udinese",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Chievo",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Atalanta",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Genoa",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Milan",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Bologna",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Lazio",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Bologna",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Sampdoria",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Juventus",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Inter",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Fiorentina",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Sassuolo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Roma",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Cagliari",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Crotone",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Verona",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Lazio",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Spal",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Genoa",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Torino",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Udinese",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Milan",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Atalanta",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Chievo",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Inter",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Bologna",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Fiorentina",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Cagliari",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Genoa",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Sassuolo",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Roma",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Sampdoria",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Lazio",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Milan",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Torino",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Spal",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Udinese",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Bologna",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Lazio",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Fiorentina",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Sassuolo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Chievo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Genoa",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Cagliari",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Atalanta",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Inter",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Crotone",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Sampdoria",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Spal",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Napoli",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Roma",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Torino",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Milan",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Milan",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Lazio",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Sassuolo",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Genoa",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Atalanta",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Juventus",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Fiorentina",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Chievo",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Cagliari",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Bologna",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Sampdoria",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Inter",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Spal",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Verona",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Roma",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Fiorentina",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Torino",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Spal",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Atalanta",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Milan",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Cagliari",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Sassuolo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Chievo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Lazio",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Udinese",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Genoa",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Sampdoria",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Inter",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Roma",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Bologna",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Fiorentina",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Verona",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Torino",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Atalanta",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Udinese",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Cagliari",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Lazio",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Spal",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Chievo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Genoa",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Sassuolo",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Milan",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Fiorentina",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Bologna",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Roma",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Atalanta",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Sampdoria",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Inter",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Torino",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Cagliari",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Chievo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Udinese",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Milan",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Lazio",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Sassuolo",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Spal",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Genoa",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Udinese",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Inter",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Sampdoria",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Sassuolo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Atalanta",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Lazio",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Bologna",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Milan",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Roma",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Chievo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Fiorentina",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Torino",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Spal",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Crotone",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Genoa",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Udinese",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Roma",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Atalanta",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Cagliari",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Verona",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Udinese",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Lazio",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Bologna",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Sampdoria",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Inter",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Crotone",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Torino",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Chievo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Fiorentina",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Spal",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Sassuolo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Milan",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Roma",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Genoa",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Atalanta",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Lazio",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Milan",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Genoa",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Bologna",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Cagliari",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Udinese",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Cagliari",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Inter",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Roma",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Fiorentina",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Sassuolo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Sampdoria",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Spal",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Genoa",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Spal",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Chievo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Milan",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Udinese",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Lazio",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Torino",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Roma",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Bologna",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Torino",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Chievo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Atalanta",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Lazio",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Sampdoria",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Milan",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Napoli",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Udinese",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Spal",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Atalanta",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Juventus",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Sassuolo",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Cagliari",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Roma",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Bologna",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Chievo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Genoa",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Inter",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Fiorentina",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Atalanta",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Udinese",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Roma",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Torino",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Sampdoria",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Spal",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Milan",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Napoli",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Sampdoria",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Cagliari",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Fiorentina",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Sassuolo",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Inter",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Fiorentina",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Genoa",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Atalanta",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Bologna",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Sassuolo",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Chievo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Inter",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Lazio",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Cagliari",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Inter",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Udinese",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Torino",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Spal",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Sampdoria",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Roma",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Napoli",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Benevento",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Cagliari",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Atalanta",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Juventus",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Lazio",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Udinese",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Genoa",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Bologna",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Chievo",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Milan",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Sassuolo",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Benevento",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Fiorentina",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Roma",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Torino",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Bologna",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Inter",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Sampdoria",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Crotone",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Juventus",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Chievo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Genoa",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Udinese",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Milan",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Sassuolo",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Napoli",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Cagliari",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Lazio",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Spal",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Bologna",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Roma",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Fiorentina",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Atalanta",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Torino",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Sampdoria",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Inter",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Benevento",
+   "AwayTeam": "Genoa",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Inter",
+   "AwayTeam": "Sassuolo",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Atalanta",
+   "AwayTeam": "Milan",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Bologna",
+   "AwayTeam": "Chievo",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Crotone",
+   "AwayTeam": "Lazio",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Fiorentina",
+   "AwayTeam": "Cagliari",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Roma",
+   "AwayTeam": "Juventus",
+   "FTR": "D"
+ },
+ {
+   "HomeTeam": "Sampdoria",
+   "AwayTeam": "Napoli",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Torino",
+   "AwayTeam": "Spal",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Verona",
+   "AwayTeam": "Udinese",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Juventus",
+   "AwayTeam": "Verona",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Cagliari",
+   "AwayTeam": "Atalanta",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Chievo",
+   "AwayTeam": "Benevento",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Genoa",
+   "AwayTeam": "Torino",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Lazio",
+   "AwayTeam": "Inter",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Milan",
+   "AwayTeam": "Fiorentina",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Napoli",
+   "AwayTeam": "Crotone",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Sassuolo",
+   "AwayTeam": "Roma",
+   "FTR": "A"
+ },
+ {
+   "HomeTeam": "Spal",
+   "AwayTeam": "Sampdoria",
+   "FTR": "H"
+ },
+ {
+   "HomeTeam": "Udinese",
+   "AwayTeam": "Bologna",
+   "FTR": "H"
+ }
+]
