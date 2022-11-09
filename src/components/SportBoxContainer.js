@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './index.css';
 import SportBox from './SportBox';
 import Sports from '../assets/sports';
@@ -7,7 +7,6 @@ import Sports from '../assets/sports';
 
 export default function SportBoxContainer() {
   
-  const [teams, setTeams] = useState(null);
 
   useEffect(() => {
     const sports = Sports;
