@@ -5,26 +5,23 @@ import './index.css';
 import Resizer from 'react-image-file-resizer';
 
 export default function PhotoAdd(props) {
-  const [img, setImg] = useState("");
-  const [uploadToLocal, setUploadToLocal] = useState(false);
-    
+    const [uploadToLocal, setUploadToLocal] = useState(true);
+
     //Set up to programatically click "choose file"
     const inputFileRef = React.useRef();  
     const handleClick = (e) => {
       inputFileRef.current.click();
     }
 
-  const addImageLocal = () => {
+  const addImageLocal = (image) => {
       
     /*localStorage set here */
     const photoMap = JSON.parse(localStorage.getItem("photoMap"));
     const photoMapSize = Object.keys(photoMap).length;
     const imageNum = "image" + photoMapSize;
-    Object.assign(photoMap, {[imageNum] : img});
+    Object.assign(photoMap, {[imageNum] : image});
     localStorage.setItem("photoMap", JSON.stringify(photoMap));
-    //props.updateState(img);
-    
-    //Open guard for addImageServer
+    props.updateState(image);
     setUploadToLocal(true);
    }
 
@@ -47,10 +44,10 @@ export default function PhotoAdd(props) {
   };
   
   const handleImage = async (e) => {
-    const base64 = await resizeFile(e.target.files[0]);
-    setImg(base64);
-    setUploadToLocal(false);
-    addImageLocal();
+    await resizeFile(e.target.files[0])
+    .then((result) => (
+      addImageLocal(result)
+    ))
   }
 
   useEffect(() => {

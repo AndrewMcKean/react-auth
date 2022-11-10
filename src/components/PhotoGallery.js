@@ -5,14 +5,15 @@ import Logout from './Logout';
 import PhotoAdd from './PhotoAdd';
 import ImageBox from './ImageBox';
 
-export default function PhotoGallery(props) {
+export default function PhotoGallery() {
   const [images, setImages] = useState([]);
 
   //Pass to child component to allow them to update state
   const updateState = (image) => {
       if(images) {
-        setImages(prev => [...prev, image]
-        )
+        const imageList = images;
+        imageList.push(image);
+        setImages(imageList);
       } else {
         setImages([image])
       }
@@ -24,9 +25,6 @@ export default function PhotoGallery(props) {
     if(images) {
       setImages(images);
     }
-    Object.entries(images).forEach((entry) => {
-      console.log(entry);
-    })
   }, [])
   
 
