@@ -10,6 +10,7 @@ import NewsExtended from "./components/NewsExtended";
 import PhotoGallery from "./components/PhotoGallery";
 import ProtectedRoutes from "./ProtectedRoutes";
 import SportsContainer from "./components/SportsContainer";
+import TasksContainer from "./components/TasksContainer";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <ProtectedRoutes path="/news" component={NewsExtended} />
         <ProtectedRoutes path="/photos" component={PhotoGallery} />
         <ProtectedRoutes path="/sports" component={SportsContainer} />
+        <ProtectedRoutes path="/tasks" component={TasksContainer} />
       </Switch>
     </Container>
   );

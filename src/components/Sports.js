@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Form, ListGroup } from 'react-bootstrap';
+import { Container, Row, Col, Form, ListGroup, Button } from 'react-bootstrap';
 import Logout from './Logout';
 
 
@@ -49,10 +49,10 @@ export default function Sports(props) {
             value={team}
             onChange={(e) => setTeam(e.target.value)}
             onBlur={(e) => findTeams(e)}
-            placeholder="Enter winning Serie A team..." 
+            placeholder="Enter a Serie A team then click anywhere to see who they beat..." 
           />
           {validTeam ? <p className="text-center">These are the teams that {team} beat.</p> : 
-          team ? <p>{team} is not a valid team, try again.</p> : null}
+          team ? <p className="text-center">{team} is not a valid team, try again.</p> : null}
           {/*If state contains loserTeams, display them*/}
         </Row>
       </Col>

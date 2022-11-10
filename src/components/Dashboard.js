@@ -9,6 +9,7 @@ import NewsBoxContainer from './NewsBoxContainer';
 import PhotoBoxContainer from './PhotoBoxContainer';
 import PieBoxContainer from './PieBoxContainer';
 import SportBoxContainer from './SportBoxContainer';
+import TasksBoxContainer from './TasksBoxContainer';
 
 
 export default function Dashboard() {
@@ -46,7 +47,7 @@ export default function Dashboard() {
           <PhotoBoxContainer />
         </Col>
         <Col className="d-flex align-items-center justify-content-center">
-          <ContentBox cardTitle="Tasks" cardContent="ToDos things" />
+          <TasksBoxContainer cardTitle="Tasks" />
         </Col>
         <Col className="d-flex align-items-center justify-content-end">
           <PieBoxContainer cardTitle="Clothes" />
