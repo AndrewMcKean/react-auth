@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Container, Col, Row} from 'react-bootstrap';
+import {Container, Col, Row, Image} from 'react-bootstrap';
 import './index.css';
 import Logout from './Logout';
 import PhotoAdd from './PhotoAdd';
@@ -40,12 +40,12 @@ export default function PhotoGallery() {
           <Logout />
         </Col>
       </Row>
-      <div className="imageList" style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
+      <div className="imageList">
         <PhotoAdd updateState={updateState} />
         {/*If state contains images, display them*/}
         {images ? Object.entries(images).map((entry) => {
           return (
-            <ImageBox key={entry[0]} source={entry[1]} />
+            <ImageBox key={entry[0]} source={entry[1]} className="galleryBox" />
           ) 
         }) : null}
       </div>

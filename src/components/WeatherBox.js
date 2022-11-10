@@ -24,7 +24,7 @@ export default function WeatherBox(props) {
 
 
   return (
-    <Card className="contentBox" style={{width: '20rem', height: '15rem', background: 'rgba(218, 223, 225, 0.5)'}}>
+    <Card className="contentBox" >
       <Card.Header style={{background: '#fdfd96', textAlign: 'center', fontSize: '120%', fontWeight: 'bold'}}>
         {props.cardTitle}
       </Card.Header>

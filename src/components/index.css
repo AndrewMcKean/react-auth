@@ -32,11 +32,7 @@
 ::placeholder {
     color: white !important;
 }
-/*
-:link {
-    color: white !important;
 
-}*/
 
 .loginContainer, .registerContainer {
     margin-bottom: 2em;
@@ -82,16 +78,40 @@ a, a:visited, a:hover, a:active {
   }
 
 .imageList {
-    display: 'flex';
-    flex-wrap: 'wrap';
-    justify-content: 'center';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contentBox {
-    width: '20rem';
-    height: '15rem';
-    border-style: 'solid';
-    border-color: '#fdfd96';
-    border-width: '2px';
+    width: 20rem !important;
+    height: 15rem !important;
+    border-style: solid !important;
+    border-color: #fdfd96 !important;
     overflow: hidden;
+    background: rgba(218, 223, 225, 0.5) !important;
+}
+
+
+.galleryBox {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.photoBox {
+    width: 20rem !important;
+    height: 15rem !important;
+    border-style: solid !important;
+    border-color: #fdfd96 !important;
+    overflow: hidden;
+    background: rgba(218, 223, 225, 0.5) !important;
+
+}
+
+.photoBox > img {
+    width: 50%;
+    height: 50%;
+
 }
