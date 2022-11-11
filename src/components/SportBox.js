@@ -7,7 +7,7 @@ export default function SportBox(props) {
   return (
     <Card className="d-flex contentBox" style={{width: '20rem', height: '15rem', background: 'rgba(218, 223, 225, 0.5)'}}>
       <Card.Header style={{background: '#fdfd96', textAlign: 'center', fontSize: '120%', fontWeight: 'bold'}}>
-      <a href="./sports" style={{textDecoration: 'none'}}>{props.cardTitle}</a>
+      <a href="./sports" style={{color: 'black', textDecoration: 'none'}}>{props.cardTitle}</a>
       </Card.Header>
       <Col className="d-flex justify-content-center align-items-center">
         <Card.Text className="text-center justify-content-center" >

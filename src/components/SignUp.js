@@ -5,7 +5,7 @@ export default function SignUp() {
 
     return (
         <Container>
-            <p className="signup">New to the challenge? <a href="/register">Sign up!</a></p>
+            <p className="signup">New to the challenge? <a href="/register" style={{color: 'white'}}>Sign up!</a></p>
         </Container>
     )
 }
