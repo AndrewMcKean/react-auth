@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Form, ListGroup, Button } from 'react-bootstrap';
+import { Container, Row, Col, Form, ListGroup } from 'react-bootstrap';
 import Logout from './Logout';
-
-
 
 export default function Sports(props) {
   const [team, setTeam] = useState("");
@@ -22,8 +20,7 @@ export default function Sports(props) {
       setValidTeam(false);
       setLoserTeams("");
     }
-
-
+    
   }
 
   return (

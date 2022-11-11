@@ -4,9 +4,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Logout from './Logout';
 import TaskAdd from './TaskAdd';
 import Task from './Task';
-import { Prev } from 'react-bootstrap/esm/PageItem';
-
-
 
 export default function TasksList() {
   const [tasks, setTasks] = useState([]);

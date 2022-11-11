@@ -3,11 +3,8 @@ import './index.css';
 import SportBox from './SportBox';
 import Sports from '../assets/sports';
 
-
-
 export default function SportBoxContainer() {
   
-
   useEffect(() => {
     const sports = Sports;
     const sportsTeams = new Map();
@@ -44,7 +41,6 @@ export default function SportBoxContainer() {
     localStorage.setItem("sports", JSON.stringify(sportsJson));
 
 }, []) 
-
 
   return (
     <SportBox cardTitle="Sports" />

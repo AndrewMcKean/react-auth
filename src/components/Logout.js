@@ -9,7 +9,6 @@ export default function Logout() {
     cookies.remove("TOKEN", { path: "/"});
     // clear localStorage
     localStorage.clear();
-
     // Redirect to login
     window.location.href = "/";
   }

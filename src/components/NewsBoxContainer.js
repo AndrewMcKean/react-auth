@@ -3,14 +3,12 @@ import axios from 'axios';
 import './index.css';
 import NewsBox from './NewsBox';
 
-
 export default function NewsBoxContainer() {
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [link, setLink] = useState("");
   const [img, setImg] = useState("");
 
-  
   useEffect(() => {
     
     function getNews() {

@@ -3,10 +3,8 @@ import { Container, Card } from 'react-bootstrap';
 import './index.css';
 import ThumbnailBox from './ThumbnailBox';
 
-
 export default function PhotoBox(props) {
   const images = props.images;
-
 
   return (
     <Card className="photoBox">

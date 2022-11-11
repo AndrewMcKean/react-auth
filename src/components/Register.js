@@ -4,7 +4,6 @@ import axios from "axios";
 import './index.css';
 import Resizer from 'react-image-file-resizer';
 
-
 export default function Register() {
   const [email, setEmail] = useState("");
   const [username, setUsername] = useState("");

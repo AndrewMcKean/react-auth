@@ -13,7 +13,6 @@ export default function TaskAdd(props) {
     
   }
 
-
   const addTaskLocal = (task, taskMapSize) => {
       
     //Save to local storage

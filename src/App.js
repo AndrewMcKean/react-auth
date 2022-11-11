@@ -12,7 +12,6 @@ import ProtectedRoutes from "./ProtectedRoutes";
 import SportsContainer from "./components/SportsContainer";
 import TasksContainer from "./components/TasksContainer";
 
-
 function App() {
   return (
     <Container>

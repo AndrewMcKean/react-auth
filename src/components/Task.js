@@ -11,7 +11,6 @@ export default function Task(props) {
     setToComplete(!toComplete);
     updateLocal();
   }
-
   
   const updateLocal = () => {
     /*localStorage set here */

@@ -10,9 +10,7 @@ import PieBoxContainer from './PieBoxContainer';
 import SportBoxContainer from './SportBoxContainer';
 import TasksBoxContainer from './TasksBoxContainer';
 
-
 export default function Dashboard() {
-
 
   return (
     <Container className="dashContainer">

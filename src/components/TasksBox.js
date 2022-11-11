@@ -3,10 +3,8 @@ import { Container, Card } from 'react-bootstrap';
 import './index.css';
 import Task from './Task';
 
-
 export default function TasksBox(props) {
   const tasks = props.tasks;
-
 
   return (
     <Card className="contentBox">

@@ -4,7 +4,6 @@ import PieBox from './PieBox';
 import Clothes from '../assets/clothes';
 import { PieChart } from 'react-minimal-pie-chart';
 
-
 export default function PieBoxContainer() {
   const [pie, setPie] = useState(null)
   
@@ -12,7 +11,6 @@ export default function PieBoxContainer() {
     const clothes = Clothes;
     const clothesPayload = clothes.payload;
     const clothesTypes = new Map();
-
     
     for (let i = 0; i < 1000; i++) {
       if(!clothesTypes.has(clothesPayload[i].clothe)) {

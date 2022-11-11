@@ -78,7 +78,6 @@ export default function PhotoAdd(props) {
       }
     }
 
-
     addImageServer();
 
   }, [uploadToLocal])
@@ -103,5 +102,3 @@ export default function PhotoAdd(props) {
   </Card>
   )
 }
-
-/* Note to ask about bug I can't fix sometimes localStorage just won't update - saves img as empty string */

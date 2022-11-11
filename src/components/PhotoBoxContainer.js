@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './index.css';
 import PhotoBox from './PhotoBox';
 
-
 export default function PhotoBoxContainer() {
   const [images, setImages] = useState([]);
 
@@ -10,7 +9,6 @@ export default function PhotoBoxContainer() {
     const maxIterations = 4;
     const photoMap = JSON.parse(localStorage.getItem("photoMap"));
     const photoMapSize = Object.keys(photoMap).length;
-
 
     if(photoMapSize > maxIterations) {
       const sliced = Object.fromEntries(
@@ -24,8 +22,6 @@ export default function PhotoBoxContainer() {
     }
   }
   , [])
-
-
 
   return (
     <PhotoBox cardTitle="Photos" images={images} />

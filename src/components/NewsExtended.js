@@ -2,11 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import Logout from './Logout';
 
-
-
 export default function NewsExtended() {
   
-
   return (
     <Container className="dashContainer">
       {/* */}
@@ -37,5 +34,4 @@ export default function NewsExtended() {
       </Row>
     </Container>
   )
-
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import './index.css';
 
-
 export default function PieBox(props) {
   return (
     <Card className="contentBox" style={{width: '20rem', height: '15rem', background: 'rgba(218, 223, 225, 0.5)'}}>

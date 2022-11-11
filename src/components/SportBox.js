@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import './index.css';
 
-
 export default function SportBox(props) {
 
   return (

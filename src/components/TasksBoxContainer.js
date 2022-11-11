@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './index.css';
 import TasksBox from './TasksBox';
 
-
 export default function TasksBoxContainer() {
   const [tasks, setTasks] = useState([]);
 
@@ -10,7 +9,6 @@ export default function TasksBoxContainer() {
     const maxIterations = 3;
     const taskMap = JSON.parse(localStorage.getItem("taskMap"));
     const taskMapSize = Object.keys(taskMap).length;
-
 
     if(taskMapSize > maxIterations) {
       const sliced = Object.fromEntries(
@@ -24,8 +22,6 @@ export default function TasksBoxContainer() {
     }
   }
   , [])
-
-
 
   return (
     <TasksBox cardTitle="Tasks" tasks={tasks} />
