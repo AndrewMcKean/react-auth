@@ -1,2 +1,2 @@
-# Therapy box dev challenge
+# Therapy Box dev challenge
 Frontend code for the therapy box dev challenge
