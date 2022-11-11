@@ -1,35 +1,37 @@
+/* eslint no-unused-vars: 0 */ // --> OFF
 import React, { useState, useEffect } from 'react';
-import { Container, Row, Col, Form, ListGroup, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Logout from './Logout';
 import TaskAdd from './TaskAdd';
 import Task from './Task';
+import { Prev } from 'react-bootstrap/esm/PageItem';
 
 
 
-export default function Tasks() {
+export default function TasksList() {
   const [tasks, setTasks] = useState([]);
-  const [checked, setChecked] = useState(false);
+  const [taskList, setTaskList] = useState([]);
   
-  const addTask = (task, taskMapSize) => {
-    const taskToAdd = {[taskMapSize] : {"task" : task, "complete" : false}}
-    
-    if(tasks) {
-      setTasks(prev => [...tasks, taskToAdd]);
-    } else {
-      setTasks([taskToAdd])
-    }
+  const updateTasks = (task) => {
+    setTaskList((prev) => [...prev, task]);
   }
   
   // Get saved tasks and add them to state
   useEffect(() => {
     const taskList = JSON.parse(localStorage.getItem('taskMap'));
+    if(taskList) {
+      setTasks(taskList);
+    }
     
-    Object.entries(taskList).map((e) => console.log(e))
-    console.log(taskList);
-    setTasks(taskList);
-   
-    console.log(tasks);
   }, [])
+
+  //Update page after adding a task
+  useEffect(() => {
+    const taskList = JSON.parse(localStorage.getItem('taskMap'));
+    if(taskList) {
+      setTasks(taskList);
+    }
+  }, [taskList]) 
 
   return (
     <Container>
@@ -45,11 +47,11 @@ export default function Tasks() {
       {/*Render tasks*/}
       {tasks ? Object.entries(tasks).map((task) => {
         return (
-          <Task taskKey={task[0]} task={task[1]}   />
+          <Task key={task[0]} taskKey={task[0]} task={task[1]} />
         )
       }) : null}      
       {/*Add tasks*/}
-      <TaskAdd addTask={addTask} />
+      <TaskAdd updateTasks={updateTasks} />
     </Container>
   )
 

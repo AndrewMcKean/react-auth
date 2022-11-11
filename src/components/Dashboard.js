@@ -3,7 +3,6 @@ import {Col, Row, Container} from 'react-bootstrap';
 import DashGreeting from "./DashGreeting";
 import Logout from "./Logout";
 import ProfilePictureContainer from './ProfilePictureContainer';
-import ContentBox from './ContentBox';
 import WeatherBoxContainer from './WeatherBoxContainer';
 import NewsBoxContainer from './NewsBoxContainer';
 import PhotoBoxContainer from './PhotoBoxContainer';
@@ -17,7 +16,7 @@ export default function Dashboard() {
 
   return (
     <Container className="dashContainer">
-      {/* */}
+      {/* Title row */}
       <Row className="titleRow">
         <Col className="d-flex align-items-center justify-content-center" sm={2}>
           <ProfilePictureContainer />

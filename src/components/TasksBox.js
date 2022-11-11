@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Card, Image } from 'react-bootstrap';
+import { Container, Card } from 'react-bootstrap';
 import './index.css';
+import Task from './Task';
 
 
 export default function TasksBox(props) {
@@ -14,11 +15,11 @@ export default function TasksBox(props) {
       </Card.Header>
       <Container>
           {/*If state contains tasks, display them*/}
-          {tasks ? Object.entries(tasks).map((entry) => {
+          {tasks ? Object.entries(tasks).map((task) => {
           return (
-            <></>
-          ) 
-        }) : null}
+            <Task key={task[0]} taskKey={task[0]} task={task[1]}   />
+          )
+      }) : null} 
       </Container>
     </Card>
   )

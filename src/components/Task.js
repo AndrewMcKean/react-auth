@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, {useEffect, useState} from 'react';
 import { Form, Row, Col } from 'react-bootstrap';
 
@@ -19,10 +20,6 @@ export default function Task(props) {
     localStorage.setItem("taskMap", JSON.stringify(taskMap));
 
     //saveServer();
-  }
-
-  const saveServer = () => {
-
   }
 
   useEffect(() => {

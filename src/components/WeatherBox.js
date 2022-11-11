@@ -18,7 +18,7 @@ export default function WeatherBox(props) {
     } else {
       setIcon(Clouds)
     }
-    // disbaling on linter as props.icon is accessible on page load
+    // disabling on linter as props.icon is accessible on page load
     // eslint-disable-next-line
   }, [])
 

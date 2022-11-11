@@ -5,7 +5,7 @@ import './index.css';
 import Resizer from 'react-image-file-resizer';
 
 export default function PhotoAdd(props) {
-    const [uploadToLocal, setUploadToLocal] = useState(true);
+    const [uploadToLocal, setUploadToLocal] = useState(false);
 
     //Set up to programatically click "choose file"
     const inputFileRef = React.useRef();  
@@ -21,7 +21,7 @@ export default function PhotoAdd(props) {
     const imageNum = "image" + photoMapSize;
     Object.assign(photoMap, {[imageNum] : image});
     localStorage.setItem("photoMap", JSON.stringify(photoMap));
-    props.updateState(image);
+    
     setUploadToLocal(true);
    }
 

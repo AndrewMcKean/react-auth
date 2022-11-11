@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Container, Col, Row, Image} from 'react-bootstrap';
+import {Container, Col, Row} from 'react-bootstrap';
 import './index.css';
 import Logout from './Logout';
 import PhotoAdd from './PhotoAdd';
@@ -7,17 +7,6 @@ import ImageBox from './ImageBox';
 
 export default function PhotoGallery() {
   const [images, setImages] = useState([]);
-
-  //Pass to child component to allow them to update state
-  const updateState = (image) => {
-      if(images) {
-        const imageList = images;
-        imageList.push(image);
-        setImages(imageList);
-      } else {
-        setImages([image])
-      }
-  }
 
   // Get saved images and add them to state
   useEffect(() => {
@@ -27,8 +16,6 @@ export default function PhotoGallery() {
     }
   }, [])
   
-
-
   return (
     <Container>
       {/* */}
@@ -41,7 +28,7 @@ export default function PhotoGallery() {
         </Col>
       </Row>
       <div className="imageList">
-        <PhotoAdd updateState={updateState} />
+        <PhotoAdd />
         {/*If state contains images, display them*/}
         {images ? Object.entries(images).map((entry) => {
           return (
