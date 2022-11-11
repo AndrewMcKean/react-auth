@@ -6,7 +6,7 @@ export default function NewsExtended() {
   
   return (
     <Container className="dashContainer">
-      {/* */}
+      {/* Title row */}
       <Row className="titleRow">
         <Col className="d-flex align-items-center justify-content-start" sm={8}>
           <h1 style={{color: 'white', fontSize: '5em'}}>News</h1>

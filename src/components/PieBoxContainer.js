@@ -8,10 +8,14 @@ export default function PieBoxContainer() {
   const [pie, setPie] = useState(null)
   
   useEffect(() => {
+    //Load clothes data
     const clothes = Clothes;
     const clothesPayload = clothes.payload;
     const clothesTypes = new Map();
     
+    //Iterate through clothes data.
+    //Add clothing to list of clothesTypes if it doesn't exist yet in the list.
+    //Then count the number of times the clothes items appear
     for (let i = 0; i < 1000; i++) {
       if(!clothesTypes.has(clothesPayload[i].clothe)) {
         clothesTypes.set((clothesPayload[i].clothe), 1)
@@ -20,7 +24,7 @@ export default function PieBoxContainer() {
       }
     }
 
-    // Getting clothes and values into the PieChart object programatically was proving a pain
+    // Getting clothes and values into the PieChart component programatically was proving a pain
     // Since there were only 6 clothes types I entered this data manually.
     setPie(<PieChart 
       data={[

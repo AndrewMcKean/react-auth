@@ -12,7 +12,9 @@ export default function Login() {
   const [error, setError] = useState(false);
 
   const handleSubmit = (e) => {
+    //Prevent form from refreshing whole page
     e.preventDefault();
+    
     // set configurations
     const configuration = {
       method: "post",
@@ -30,6 +32,7 @@ export default function Login() {
         localStorage.setItem("photoMap", JSON.stringify(result.data.photoMap));
         localStorage.setItem("taskMap", JSON.stringify(result.data.taskMap));
         localStorage.setItem("email", JSON.stringify(result.data.email));
+        localStorage.setItem("username", JSON.stringify(result.data.username))
         cookies.set("TOKEN", result.data.token, {
           path: "/",
         });

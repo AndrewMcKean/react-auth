@@ -3,6 +3,7 @@ import { Card, Col, Row } from 'react-bootstrap';
 import './index.css';
 
 export default function PieBox(props) {
+  
   return (
     <Card className="contentBox" style={{width: '20rem', height: '15rem', background: 'rgba(218, 223, 225, 0.5)'}}>
       <Card.Header style={{background: '#fdfd96', textAlign: 'center', fontSize: '120%', fontWeight: 'bold'}}>
@@ -16,7 +17,7 @@ export default function PieBox(props) {
           {props.pie}
         </Col>
         <Col style={{fontSize: '90%', justifyContent: 'flex-start'}}>
-
+            {/*Key for pie colours, their corresponding item of clothing and the number of times worn */}
             &nbsp;Teal: Blazer: 146<br />
             &nbsp;Green: Raincoat: 171 <br />
             &nbsp;Gray: Jumper: 189 <br />

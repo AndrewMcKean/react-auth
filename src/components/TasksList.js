@@ -32,7 +32,7 @@ export default function TasksList() {
 
   return (
     <Container>
-      {/* */}
+      {/*Title row*/}
       <Row className="titleRow">
         <Col className="d-flex align-items-center justify-content-start" sm={8}>
           <h1 style={{color: 'white', fontSize: '5em'}}>Tasks</h1>

@@ -43,6 +43,7 @@ export default function PhotoAdd(props) {
     });
   };
   
+
   const handleImage = async (e) => {
     await resizeFile(e.target.files[0])
     .then((result) => (
@@ -54,11 +55,11 @@ export default function PhotoAdd(props) {
     
     const addImageServer = () =>  {
       if(uploadToLocal) {
-        // get photoMap
+        //Get photoMap
         const photoMap = JSON.parse(localStorage.getItem("photoMap"));
         const email = JSON.parse(localStorage.getItem('email'));
 
-        // set configurations
+        //Set configurations
         const configuration = {
           method: "post",
           url: "https://challenge-auth-app.herokuapp.com/updatephotos",
@@ -68,6 +69,7 @@ export default function PhotoAdd(props) {
           },
         }
 
+        //Save photoMap to server
         axios(configuration)
           .then((result) => {
             console.log("Images saved successfully");
@@ -80,12 +82,11 @@ export default function PhotoAdd(props) {
 
     addImageServer();
 
-  }, [uploadToLocal])
+  }, [uploadToLocal]) //Added a boolean guard here as was having issues with async/await in the function cascade
 
   return (
     <Card style={{width: '20rem', height: '15rem', background: 'rgba(218, 223, 225, 0.5)', borderStyle: 'solid', borderColor: '#fdfd96', borderWidth: '2px'}}>
     <Form.Control
-      //className="d-flex align-items-center justify-content-center"
       type="file"
       ref={inputFileRef}
       name="image"

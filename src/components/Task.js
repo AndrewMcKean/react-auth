@@ -19,6 +19,7 @@ export default function Task(props) {
     localStorage.setItem("taskMap", JSON.stringify(taskMap));
 
     //saveServer();
+    //Couldn't get this to work sadly
   }
 
   useEffect(() => {

@@ -20,6 +20,7 @@ export default function TaskAdd(props) {
     Object.assign(taskMap, {[taskMapSize] : {"task" : task, "complete": false}});
     localStorage.setItem("taskMap", JSON.stringify(taskMap));
 
+    //Update parent state to trigger re-render
     props.updateTasks(task);
 
     setTask("");

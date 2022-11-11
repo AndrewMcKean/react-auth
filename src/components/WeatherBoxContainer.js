@@ -10,7 +10,6 @@ export default function ContentBoxContainer() {
   const [icon, setIcon] = useState("");
   const [temp, setTemp] = useState("");
 
-
   useEffect(() => {
     
     function getWeather() {
@@ -50,8 +49,6 @@ export default function ContentBoxContainer() {
 
     getWeather();
     
-
-
     }, [])
 
   return (

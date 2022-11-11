@@ -16,7 +16,10 @@ export default function Splash() {
                 Authorization: `Bearer ${token}`,
               },
             };
-        
+            
+            //If user has a cookie, check it against the server. 
+            //If they match redirect to dashboard.
+            //If not, redirect to login
             axios(configuration)
               .then((result) => {
                 window.location.href="/dashboard"

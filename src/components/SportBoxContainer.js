@@ -9,8 +9,6 @@ export default function SportBoxContainer() {
     const sports = Sports;
     const sportsTeams = new Map();
     
-    console.log(sports[1].HomeTeam);
-
     //Map out sportsTeams with empty array as value to contain teams won against
     for (let i = 0; i < 380; i++) {
       if(!sportsTeams.has(sports[i].HomeTeam)) {
@@ -19,9 +17,8 @@ export default function SportBoxContainer() {
         continue
       }
     }
-    console.log(sportsTeams);
-    console.log(sportsTeams.get(sports[0].HomeTeam));
 
+    //Build key:value pairs as team: [teams beaten]
     for (let i = 0; i < 380; i++) {
       let homeTeam = sports[i].HomeTeam;
       let awayTeam = sports[i].AwayTeam;

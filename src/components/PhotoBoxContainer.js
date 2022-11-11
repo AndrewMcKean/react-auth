@@ -6,6 +6,7 @@ export default function PhotoBoxContainer() {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
+    //Get up to 4 images from localStorage and display them in the dashboard box
     const maxIterations = 4;
     const photoMap = JSON.parse(localStorage.getItem("photoMap"));
     const photoMapSize = Object.keys(photoMap).length;

@@ -20,12 +20,12 @@ export default function Sports(props) {
       setValidTeam(false);
       setLoserTeams("");
     }
-    
+
   }
 
   return (
     <Container className="dashContainer">
-      {/* */}
+      {/*Title row*/}
       <Row className="titleRow">
         <Col className="d-flex align-items-center justify-content-start" sm={8}>
           <h1 style={{color: 'white', fontSize: '5em'}}>Sports</h1>
@@ -34,7 +34,7 @@ export default function Sports(props) {
           <Logout />
         </Col>
       </Row>
-      {/*News Image - Unable to source story image from rss*/} 
+      {/*Form for team entry*/} 
       <Col className="d-block" stlye={{}}>
         <Row>
           <Form.Control 
@@ -48,9 +48,9 @@ export default function Sports(props) {
             onBlur={(e) => findTeams(e)}
             placeholder="Enter a Serie A team then click anywhere to see who they beat..." 
           />
+          {/*Display message to user*/}
           {validTeam ? <p className="text-center">These are the teams that {team} beat.</p> : 
-          team ? <p className="text-center">{team} is not a valid team, try again.</p> : null}
-          {/*If state contains loserTeams, display them*/}
+          team ? <p className="text-center">{team} is not a valid team, try again.</p> : null}   
         </Row>
       </Col>
       <div className="imageList" style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
