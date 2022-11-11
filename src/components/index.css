@@ -1,4 +1,15 @@
-/*Component styles*/
+/*Global styles*/
+
+/*Remove hyperlink colouring*/
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+::placeholder {
+    color: white !important;
+}
+
+/*Dashboard and global component styles */
 
 .pageTitle {
     color: white;
@@ -28,11 +39,6 @@
     border-bottom: solid !important;
     margin-bottom: 3em;
 }
-
-::placeholder {
-    color: white !important;
-}
-
 
 .loginContainer, .registerContainer {
     margin-bottom: 2em;
@@ -68,21 +74,6 @@
     color: white;
 }
 
-.newsExtendedImg {
-    max-width: 40%;
-}
-
-/*Remove hyperlink colouring*/
-a, a:visited, a:hover, a:active {
-    color: inherit;
-  }
-
-.imageList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .contentBox {
     width: 20rem !important;
     height: 15rem !important;
@@ -92,6 +83,16 @@ a, a:visited, a:hover, a:active {
     background: rgba(218, 223, 225, 0.5) !important;
 }
 
+/*Styles relating to image presentation */
+.newsExtendedImg {
+    max-width: 40%;
+}
+
+.imageList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .galleryBox {
     max-width: 100%;
