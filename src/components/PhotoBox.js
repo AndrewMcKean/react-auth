@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Card, Image } from 'react-bootstrap';
+import { Container, Card } from 'react-bootstrap';
 import './index.css';
 import ThumbnailBox from './ThumbnailBox';
 
